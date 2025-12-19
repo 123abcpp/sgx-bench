@@ -56,7 +56,7 @@ endif
 
 
 App_C_Files := App/bw_mem.c App/EnclaveBridge.c App/getopt.c
-App_Include_Paths := -IInclude -IApp -I$(SGX_SDK)/include
+App_Include_Paths := -IInclude -IApp -I$(SGX_SDK)/include -I/usr/include/tirpc
 
 App_C_Flags := $(SGX_COMMON_CFLAGS) -fPIC -Wno-attributes $(App_Include_Paths)
 

@@ -1,12 +1,7 @@
 #ifndef _DEBUG_PRINT_H
 #define _DEBUG_PRINT_H
 
-#ifndef BUFSIZE_H
-char buf[BUFSIZE];
-#define BUFSIZE_H
-#else
-extern char *buf;
-#endif
+extern char buf[BUFSIZE];
 
 //#define DEBUGP
 

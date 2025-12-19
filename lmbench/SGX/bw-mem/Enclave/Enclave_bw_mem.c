@@ -11,6 +11,7 @@
 #include "Enclave_bw_mem.h"
 #include "debug_print.h"
 
+char buf[BUFSIZE];
 
 void	rd(iter_t iterations, void *cookie);
 void	wr(iter_t iterations, void *cookie);
